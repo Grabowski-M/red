@@ -1,0 +1,29 @@
+// Mixins
+
+/* 320px */
+@mixin bp-small {
+  @media only screen and (min-width: $bp-small) {
+    @content;
+  }
+}
+
+/* 768px */
+@mixin bp-medium {
+  @media only screen and (min-width: $bp-medium) {
+    @content;
+  }
+}
+
+/* 1024px */
+@mixin bp-large {
+  @media only screen and (min-width: $bp-large) {
+    @content;
+  }
+}
+
+/* 1600px */
+@mixin bp-full {
+  @media only screen and (min-width: $bp-full) {
+    @content;
+  }
+}

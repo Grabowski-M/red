@@ -1,0 +1,38 @@
+.section__who {
+  background: $color-light-grey;
+  width: 100%;
+}
+
+.section__who__gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  @include bp-small {
+    flex-wrap: nowrap;
+  }
+}
+
+.section__who__block {
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+
+  @include bp-small {
+    width: 100%;
+  }
+}
+
+.section__who__media__wrapper {
+  position: relative;
+}
+
+.section__who__media {
+  width: 100%;
+  transform: scale(0.95);
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: scale(1);
+  }
+}

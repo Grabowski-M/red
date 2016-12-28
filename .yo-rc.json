@@ -1,0 +1,17 @@
+{
+  "generator-chisel": {
+    "config": {
+      "name": "red",
+      "author": "",
+      "nameSlug": "red",
+      "nameCamel": "Red",
+      "features": {
+        "has_jquery": true,
+        "has_babel": true
+      }
+    },
+    "pages": [
+      "Index"
+    ]
+  }
+}

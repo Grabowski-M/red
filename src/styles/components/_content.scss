@@ -1,0 +1,48 @@
+.content {
+  text-align: center;
+}
+
+.main__title {
+  letter-spacing: 3px;
+  margin: 0;
+  @extend .font-bold;
+}
+
+.content__media-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.content__media {
+  max-width: 100%;
+  height: auto;
+}
+
+.content__paragraph {
+  margin-bottom: 100px;
+}
+
+.content__paragraph-bold {
+  white-space: nowrap;
+  margin: 0;
+  @extend .font-bold
+}
+
+.content__paragraph-light {
+  line-height: 1.5;
+}
+
+.content__media__play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  transition: transform 1s;
+  z-index: 10;
+
+  &:hover {
+    transform: translate(-50%, -50%) scale(1);
+    cursor: pointer;
+  }
+}
+

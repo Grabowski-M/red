@@ -1,0 +1,29 @@
+.section__clients {
+  color: white;
+}
+
+.section__clients__wrapper {
+  background: url(../assets/images/clients.jpg) center no-repeat;
+  background-size: cover;
+  padding: 30px;
+  min-height: 380px;
+}
+
+.section__clients__logos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.section__clients__media__wrapper {
+  width: 100%;
+  text-align: center;
+
+  @include bp-medium {
+    width: 50% ;
+  }
+
+  @include bp-large {
+    width: 20%;
+  }
+}

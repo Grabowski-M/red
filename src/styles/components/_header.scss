@@ -1,0 +1,47 @@
+.header {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.header__title {
+  white-space: nowrap;
+  letter-spacing: 2px;
+  margin: 0;
+  font-size: 1.8em;
+  @extend .font-bold;
+
+  @include bp-small {
+    font-size: 3em;
+    letter-spacing: 4px;
+  }
+}
+
+.header__paragraph {
+  letter-spacing: 2px;
+}
+
+.header__background {
+  background: url("../assets/images/background-first.jpg") center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.header__arrow {
+  transform: scale(0.8);
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: scale(1.0);
+    cursor: pointer;
+  }
+
+  @include bp-medium {
+    margin-top: 100px;
+  }
+}

@@ -1,0 +1,20 @@
+
+.section__what__gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  @include bp-small {
+    flex-wrap: nowrap;
+  }
+}
+
+.section__what__block {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+
+  @include bp-small {
+    width: 100%;
+  }
+}

@@ -1,0 +1,66 @@
+.section__contact__grid {
+  text-align: left;
+  width: 100%;
+  display: flex;
+}
+
+.section__contact__form {
+  width: 80%;
+}
+
+.section__contact__input {
+  width: 80%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 2px solid $color-light-grey;
+  margin: 10px 0;
+  transition: border 0.5s;
+
+  &:focus {
+    border-bottom: 2px solid #ea6751;
+  }
+}
+
+.section__contact__icons {
+  width: 20%;
+}
+
+.section__contact__submit-btn {
+  padding: 5px 30px;
+  color: white;
+  background: #ea6751;
+  border: none;
+  margin-top: 20px;
+  display: block;
+}
+
+.section__contact__icon-wrapper {
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin: 1px;
+  transform: scaleX(1);
+  transition: transform 0.5s;
+
+  &:nth-child(1) {
+    background: #0e9ef9
+  }
+  &:nth-child(2) {
+    background: #51d7fd
+  }
+  &:nth-child(3) {
+    background: #fa4e9b
+  }
+  &:nth-child(4) {
+    background: #2a63ab
+  }
+  &:nth-child(5) {
+    background: #f13131
+  }
+
+  &:hover {
+    transform: scaleX(1.1);
+    cursor: pointer;
+  }
+}

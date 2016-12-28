@@ -1,0 +1,13 @@
+.o-container {
+  margin: 0 auto;
+  max-width: $c-max-width-small;
+  width: 100%;
+  padding: 0 $c-padding-h;
+
+  &--big {
+    margin: 0 auto;
+    width: 100%;
+    max-width: $c-max-width-big;
+    padding: 0 $c-padding-h;
+  }
+}
